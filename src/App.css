@@ -1,0 +1,52 @@
+/* ================================
+   BROWSER SCROLLBAR
+   ================================ */
+
+html::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* Fundalul barei */
+
+html::-webkit-scrollbar-track {
+    background: #061b3a;
+}
+
+
+/* THUMB - STEAGUL SPANIEI + GLASS */
+
+html::-webkit-scrollbar-thumb {
+    background:
+        linear-gradient(
+            to bottom,
+            #aa151b 0%,
+            #aa151b 25%,
+            #f1bf00 25%,
+            #f1bf00 75%,
+            #aa151b 75%,
+            #aa151b 100%
+        );
+
+    border-radius: 20px;
+    border: 3px solid #061b3a;
+
+    box-shadow:
+        inset 0 1px 3px rgba(255, 255, 255, 0.55),
+        inset 0 -2px 3px rgba(0, 0, 0, 0.25),
+        0 0 10px rgba(255, 255, 255, 0.15);
+
+    transition: all 0.3s ease;
+}
+
+
+/* Hover */
+
+html::-webkit-scrollbar-thumb:hover {
+    filter: brightness(1.15);
+
+    box-shadow:
+        inset 0 1px 4px rgba(255, 255, 255, 0.7),
+        inset 0 -2px 3px rgba(0, 0, 0, 0.2),
+        0 0 15px rgba(241, 191, 0, 0.35);
+}

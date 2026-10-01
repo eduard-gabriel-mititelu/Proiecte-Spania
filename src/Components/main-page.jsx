@@ -1,11 +1,12 @@
-import StudentList from './StudentList';
-import { Elevi } from '../data';
 import Header from './Header';
+import Projects from './body';
+import Footer from './Footer';
 function Main() {
     return (
         <main>
             <Header />
-            <StudentList students={Elevi} />
+            <Projects />
+            <Footer />
         </main>
     )
 }
