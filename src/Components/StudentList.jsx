@@ -10,7 +10,7 @@ const StudentList = ({ students }) => {
           <li key={student.id} className="student-item">
             <iframe src={student.link} title={student.Nume} className="student-iframe"></iframe>
             <div className="student-info">
-              <h3>{student.Nume}</h3>
+              <h3><a href={student.link} target="_blank" rel="noopener noreferrer">{student.Nume}</a></h3>
             </div>
           </li>
         ))}
