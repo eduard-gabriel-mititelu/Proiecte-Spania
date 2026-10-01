@@ -36,6 +36,7 @@
     flex-direction: column;
     height: auto;
     width: 100%;
+    padding: 0px;
   }
 
     .student-iframe {

@@ -5,3 +5,22 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 840px) {
+    header {
+        background-image: url('../assets/ChatGPT\ Image\ Oct\ 1\,\ 2026\,\ 09_05_01\ AM.jpg');
+    }
+}
+
+@media (max-width: 840px) {
+    header {
+        background-image: url('../assets/ChatGPT\ Image\ Oct\ 1\,\ 2026\,\ 09_05_01\ AM.jpg');
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        background-image: url('../assets/ChatGPT\ Image\ Oct\ 1\,\ 2026\,\ 09_05_01\ AM\ \(s1\).jpg');
+        background-size: contain;
+    }
+}
