@@ -1,7 +1,10 @@
 import './App.css'
+import Main from './Components/main-page.jsx'
 
 function App() {
-  return (<h1>Hello, World!</h1>);
+  return (
+    <Main />
+  );
 }
 
 export default App
